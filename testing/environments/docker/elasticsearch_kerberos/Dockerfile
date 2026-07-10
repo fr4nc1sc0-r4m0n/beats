@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.0.0-SNAPSHOT
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.5.1-SNAPSHOT
 
 ADD scripts /scripts
 ADD config /config
